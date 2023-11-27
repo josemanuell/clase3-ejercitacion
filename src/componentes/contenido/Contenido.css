@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contenido_flex img {
+    width: 100%;
+    height: auto;
+}
+
+
+.contenedor_contenido {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .contenido_flex {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 2rem;
+    }
+}
+
+.contenido_descripcion p {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    
+}
+
+.descripcio_pago {
+    text-align: center;
+}
+.descripcio_pago a {
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}

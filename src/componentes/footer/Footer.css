@@ -1,0 +1,11 @@
+.contenedor_footer {
+    padding: 0.1rem;
+    background-color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+}

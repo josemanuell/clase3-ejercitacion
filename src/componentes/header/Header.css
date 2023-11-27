@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+
+.contenedor_header {
+    padding: 0.1rem;
+    background-color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenedor ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .contenedor ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+li:hover {
+    color: rgb(107, 46, 24);
+}
